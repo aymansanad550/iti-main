@@ -1,0 +1,11 @@
+.products_page {
+  padding: 40px 0;
+  min-height: 60vh;
+}
+
+.products_page .no_results {
+  text-align: center;
+  font-size: 18px;
+  color: var(--p_color);
+  margin-top: 50px;
+}

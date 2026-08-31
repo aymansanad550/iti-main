@@ -1,0 +1,141 @@
+.contact_page {
+  padding: 50px 0;
+  min-height: 60vh;
+}
+
+.contact_page h2 {
+  color: var(--main_color);
+  font-size: 32px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.contact_subtitle {
+  text-align: center;
+  color: var(--p_color);
+  margin-bottom: 40px;
+  font-size: 16px;
+}
+
+.contact_content {
+  display: flex;
+  gap: 40px;
+  justify-content: space-between;
+}
+
+.contact_info {
+  flex: 1;
+  background: var(--white_color);
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0px 8px 15px #c0bfbf33;
+  border: 1px solid var(--border_color);
+  height: max-content;
+}
+
+.contact_info h3 {
+  color: var(--color_heading);
+  margin-bottom: 25px;
+  font-size: 22px;
+  border-bottom: 1px solid var(--border_color);
+  padding-bottom: 15px;
+}
+
+.info_item {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+.info_icon {
+  font-size: 24px;
+  color: var(--main_color);
+  margin-top: 2px;
+}
+
+.info_item h4 {
+  color: var(--color_heading);
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.info_item p, .info_item a {
+  color: var(--p_color);
+  font-size: 15px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.info_item a:hover {
+  color: var(--main_color);
+}
+
+.contact_form_container {
+  flex: 2;
+  background: var(--white_color);
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0px 8px 15px #c0bfbf33;
+  border: 1px solid var(--border_color);
+}
+
+.contact_form_container h3 {
+  color: var(--color_heading);
+  margin-bottom: 25px;
+  font-size: 22px;
+}
+
+.contact_form .form_group {
+  margin-bottom: 20px;
+}
+
+.contact_form .form_group label {
+  display: block;
+  margin-bottom: 8px;
+  color: var(--color_heading);
+  font-weight: 500;
+}
+
+.contact_form .form_group input,
+.contact_form .form_group textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid var(--border_color);
+  border-radius: 4px;
+  outline: none;
+  font-family: inherit;
+  transition: border-color 0.3s;
+}
+
+.contact_form .form_group textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.contact_form .form_group input:focus,
+.contact_form .form_group textarea:focus {
+  border-color: var(--main_color);
+}
+
+.contact_form .submit_btn {
+  background: var(--main_color);
+  color: var(--white_color);
+  padding: 12px 25px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.contact_form .submit_btn:hover {
+  background: #a01515;
+}
+
+@media (max-width: 768px) {
+  .contact_content {
+    flex-direction: column;
+  }
+}
