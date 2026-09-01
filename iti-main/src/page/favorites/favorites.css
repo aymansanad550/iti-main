@@ -1,0 +1,22 @@
+.favorites_page .item_cart .actions {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.favorites_page .item_cart .add_to_cart_btn {
+  outline: none;
+  border: none;
+  background: transparent;
+}
+
+.favorites_page .item_cart .add_to_cart_btn svg {
+  font-size: 25px;
+  cursor: pointer;
+  fill: #28a745;
+  transition: 0.3s;
+}
+
+.favorites_page .item_cart .add_to_cart_btn:hover svg {
+  scale: 1.2;
+}

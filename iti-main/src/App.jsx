@@ -12,6 +12,7 @@ import Checkout from "./page/checkout/Checkout";
 import Login from "./page/auth/Login";
 import Register from "./page/auth/Register";
 import Contact from "./page/contact/Contact";
+import Favorites from "./page/favorites/Favorites";
 import Footer from "./components/footer/Footer";
 import { Toaster } from "react-hot-toast";
 
@@ -40,6 +41,7 @@ const App = () => {
         <Route path="/checkout" element={<Checkout />} />
         <Route path="/search" element={<Search />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/favorites" element={<Favorites />} />
         <Route path="/products" element={<Products />} />
         <Route path="/category/:slug" element={<Products />} />
         <Route path="/products/:id" element={<ProductDetails />} />

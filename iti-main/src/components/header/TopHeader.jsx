@@ -38,10 +38,10 @@ function TopHeader() {
         </form>
 
         <div className="header_icons">
-          <div className="icon">
+          <Link className="icon" to="/favorites">
             <FaRegHeart />
             <span className="count">{favorites.length}</span>
-          </div>
+          </Link>
 
           <Link className="icon" to="/cart">
             <TiShoppingCart />
